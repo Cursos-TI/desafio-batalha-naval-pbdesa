@@ -119,7 +119,7 @@ int main() {
     // Colocação do navio 4 (diagonal inversa)
     for(int i = 0; i < TAMANHO_NAVIO; i++) {
         tabuleiro[linha_navio4 + i][coluna_navio4 - i] = 3; 
-
+    }
 
     // Impressão do tabuleiro
     for(int i = 0; i < 10; i++) {
